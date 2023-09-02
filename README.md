@@ -18,5 +18,5 @@ $ helm repo add argo https://argoproj.github.io/argo-helm
 ```
 
 ```bash
-$ helm install 0n argocd argocd-demo argo/argo-cd
+$ helm install -n argocd argocd-demo argo/argo-cd
 ```
